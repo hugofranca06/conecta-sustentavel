@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossário | Conecta Sustentável</title>
+<meta name="description" content="Glossário de economia sustentável e consumo consciente.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="glossario">
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header id="site-header"></header>
+<main id="conteudo">
+<div class="page-head"><div class="wrap"><h1>Glossário</h1><p class="lead">Conceitos de economia sustentável e consumo consciente, sem complicação.</p></div></div>
+<section><div class="wrap">
+<div class="tools"><label for="busca" class="lead" style="margin:0">Buscar termo</label><input id="busca" class="search" type="search" placeholder="Ex.: reciclagem, orçamento…" autocomplete="off"></div>
+<div class="chips" id="cats" role="group" aria-label="Filtrar por categoria"></div>
+<div class="chips letters" id="letras" role="group" aria-label="Filtrar por letra inicial"></div>
+<p class="count" id="contagem" aria-live="polite"></p><div class="grid" id="lista"></div><div class="empty" id="vazio" hidden><strong>Nenhum termo encontrado</strong><p>Tente outra palavra, escolha outra letra ou limpe os filtros.</p><button class="btn" id="limpar" type="button">Limpar filtros</button></div>
+</div></section>
+</main>
+<footer id="site-footer"></footer>
+<script src="js/main.js"></script>
+<script src="js/glossario.js"></script>
+</body>
+</html>
